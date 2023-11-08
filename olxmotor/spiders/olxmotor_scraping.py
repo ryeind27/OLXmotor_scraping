@@ -6,7 +6,7 @@ class OlxmotorScrapingSpider(scrapy.Spider):
 
     def start_requests(self):
         starts_url = "https://www.olx.co.id/motor-bekas_c200?page={}"
-        for page_number in range(31): #looping page 1 to 30
+        for page_number in range(31):
             url = starts_url.format(page_number)
             yield scrapy.Request(url, self.parse)
 
