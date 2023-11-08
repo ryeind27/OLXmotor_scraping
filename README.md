@@ -52,4 +52,4 @@ scrapy crawl olxmotor_scraping
 
 ## Result
 
-Hasil output dicetak dalam format .JSON dapat di lihat [disini](output.json)
+Hasil output dicetak dalam format .JSON dapat di lihat [disini](./output.json)
